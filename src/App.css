@@ -1,0 +1,44 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(18, 97, 18);
+    width: 35%;
+  }
+  
+ li {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+  /*DESKTOP*/
+
+  .Currency {
+      width: 8%;
+  }
+
+  .BTC{
+    width: 16%;
+  }
+
+  /*PHONES*/
+  @media only screen and (max-width: 768px) {
+
+    .Currency {
+      width: 40%;
+  }
+
+  .BTC{
+    width: 80%;
+  }
+
+  }
+
+  html{
+    background-color: rgb(218, 63, 7);
+  }
